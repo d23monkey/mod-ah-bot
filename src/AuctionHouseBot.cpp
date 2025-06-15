@@ -1042,7 +1042,8 @@ void AuctionHouseBot::Update()
 
     ObjectAccessor::AddObject(&_AHBplayer);
 
-    LOG_INFO("module", "AHBot [{}]: Begin Performing Update Cycle", _id);
+    //LOG_INFO("module", "AHBot [{}]: Begin Performing Update Cycle", _id);
+	LOG_INFO("module", "拍卖机器人[角色ID {}]: 开始进行周期更新拍卖物品", _id);
 
     //
     // Perform update for the factions markets
